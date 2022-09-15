@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">LatihanChapter4Top1_ViewModel</string>
+    <string name="judul_berita">Judul Berita</string>
+    <string name="tanggalberita">TanggalBerita</string>
+    <string name="jurnalis_berita">Jurnalis Berita</string>
+
+<!--    ISI BERITA-->
+    
+    <string name="isi_berita1">
+        Tangerang - Pria berinisial G (28) tega membunuh istrinya berinisial BA (30) di Ciledug, Tangerang. Polisi mengungkapkan motif pembunuhan itu dipicu adanya chat perselingkuhan.
+        "(Buktinya) ada di handphone korban," kata Kapolsek Ciledug Kompol Noor Maghantara saat dihubungi, Rabu (14/9/2022).
+        Polisi yang akrab disapa Nurmag ini mengatakan pelaku menemukan chat perselingkuhan istri dengan pria lain.
+        Isi chat itulah yang memantik amarah pelaku untuk membunuh korban pada Selasa (13/9) pagi.
+    </string>
+
+    <string name="isi_berita2">
+        Jakarta - Polda Metro Jaya menyiagakan personel untuk mengantisipasi demo penolakan kenaikan harga BBM. Hari ini,
+        sekelompok elemen massa akan kembali turun demo di kawasan Patung Kuda dan Flyover Pasar Rebo.
+        "Untuk massa demo yang dengan pemberitahuan hari ini belum ada, tetapi kami mengantisipasi demo yang tanpa
+        pemberitahuan," ujar Kabid Humas Polda Metro Jaya Kombes Endra Zulpan dalam keterangan kepada detikcom, Rabu (14/9/2022).
+        Zulpan menyebutkan, massa yang akan berdemo yang terdiri dari Ikatan Mahasiswa Muhammadiyah (IMM) DKI Jakarta dan HMI cabang Jakarta Selatan. Massa akan demo di dua titik yakni di Patung Kuda dan flyover Pasar Rebo.
+        Zulpan, mengatakan IMM DKI Jakarta akan menggelar aksi di Patung Kuda, Jakarta Pusat. Kemudian HMI cabang Jakarta Selatan Komisariat se-Unindra akan menggelar demo di flyover Pasar Rebo.
+        Demo rencananya dimulai pukul 13.00 WIB. Diperkirakan massa yang hadir di Patung Kuda sebanyak 80 orang, sedangkan demo di flyover Pasar Rebo sejumlah 30 orang.
+        https://apps.detik.com/detik/
+    </string>
+
+    <string name="isi_berita3">
+        KOMPAS.com - Timnas U20 Indonesia akan mengawali perjalanan mereka di Kualifikasi Piala Asia U20 2023 dengan menghadapi Timor Leste pada matchday pertama Grup F. Laga Indonesia vs Timor Leste dijadwalkan berlangsung di Stadion Gelora Bung Tomo, Surabaya, Rabu (14/9/2022) pukul 20.00 WIB.
+        Tautan atau link live streaming Indonesia vs Timor Leste tersemat di bagian akhir artikel ini. Timnas U20 Indonesia berkekuatan 23 pemain di Kualifikasi Piala Asia U20 2023. Semua atas rekomendasi Shin Tae-yong. Kebanyakan pemain yang menghuni skuad timnas U20 Indonesia saat ini
+        adalah mereka yang pernah mentas di Piala AFF U19 pada Juli lalu.
+        Pemain-pemain seperti Marselino Ferdinan, Ronaldo Kwateh, hingga Hokky Caraka, masih dipercaya Shin Tae-yong. Sebelum terjunn di kompetisi sesungguhnya, timnas U20 Indonesia sudah melakukan pemusatan latihan dan melakoni beberapa uji coba. Marselino Ferdinan oprimistis, persiapan matang tersebut
+        akan membuahkan hasil pada laga pertama Grup F. "Bermain disini (Stadion Gelora Bung Tomo) menjadi tambahan motivasi buat saya dan rekan-rekan lainnya," ucap Marselino, dikutip dari laman resmi PSSI. "Kami yakin mampu meraih kemenangan melawan Timor Leste. Meski begitu, kami tak ingin meremehkan
+        mereka dan jangan lengah," imbuh gelandang Persebaya Surabaya itu.
+
+        Penulis : Faishal Raihan
+        Editor : Faishal Raihan
+        kompas.com
+    </string>
+
+    <string name="isi_berita4">
+       SOROTAN kini tertuju pada maraknya dugaan kebocoran data dan serangan Bjorka; sosok anonim yang tengah menjadi pembicaraan publik karena diduga meretas dan membocorkan data pribadi dari sejumlah penyelenggara negara dan badan usaha di Indonesia. Saling “lempar - melempar” tanggung jawab sempat terjadi
+        pada saat penanganan dugaan kebocoran data yang dilakukan Bjorka. Menteri Komunikasi dan Informatika (Menkominfo) Johnny G. Plate dalam rapat dengan Komisi 1 DPR RI menyebutkan bahwa serangan siberdan insiden kebocoran data yang terjadi belakanganini adalah tugas dan fungsi (tupoksi) Badan Siber dan
+        Sandi Negara (BSSN), bukan Kementerian Kominfo. Menkominfo menyampaikan bahwa, "Kami menjawab itu semuanya hanya agar publik mengetahuinya, tetapi bukan menjadi domain dan tugasnya Kemenkominfo dalam kaitan dengan hal-hal teknis serangan siber. Serangan siber sepenuhnya domain (tanggung jawab) BSSN."
+        Merespons pernyataan Menkominfo, juru bicara BSSN Ariandi Putra menyampaikan, “Keamanan siber pada dasarnya merupakan tanggung jawab bersama seluruh pemangku kepentingan baik penyelenggara negara, pelaku usaha, akademisi, maupun komunitas/masyarakat."
+    </string>
+
+    <string name="isi_berita5">
+        MANADO, KOMPAS.com - Tim Resmob Polresta Manado, Sulawesi Utara (Sulut), mengamankan seorang pria berinisial RSP (29), yang diduga telah melakukan tindak pidana penipuan penggandaan uang. "Pria yang mengaku sebagai seorang dukun pengobatan ini akhirnya berhasil diringkus Tim Resmob Polresta Manado,
+        di Desa Modayag, Kecamatan Modayag, Kabupaten Bolaang Mongondow Timur (Boltim), Senin (12/9/2022)," kata Kabid Humas Polda Sulut Kombes Pol Jules Abraham Abast, Rabu (14/9/2022). Kepada para korban, RSP mengaku bisa menyembuhkan penyakit, namun belakangan ia juga mengaku bisa menggandakan uang.
+        Penulis : Kontributor Manado, Skivo Marcelino Mandey
+        Editor : Ardi Priyatno Utomo
+
+    </string>
+
+    <string name="isi_berita6">
+        JAKARTA, KOMPAS.com – Komisi Pemilihan Umum (KPU) RI mengeklaim akan selalu meningkatkan teknologi dan keamanan aplikasi yang berkaitan dengan Pemilu 2024. Koordinator Divisi Teknis Penyelenggaraan Pemilu KPU RI, Idham Holik menyebutkan bahwa
+        seluruh aplikasi yang dimiliki KPU diperbarui seiring terbitnya peraturan mengenai tahapan pemilu. Ambil contoh, Sistem Informasi Partai Politik (Sipol), sudah lebih dulu diperbarui jelang tahapan pendaftaran partai politik.
+        Penulis : Vitorio Mantalean
+        Editor : Dani Prabowo
+        sumber: Kompas.com
+    </string>
+
+    <string name="isi_berita7">
+        BENGKULU, KOMPAS.com - Seekor Gajah Sumatera atau elephas maximus sumatranus, ditemukan mati tinggal kerangka di kawasan Hutan Produksi (HP) Air Rami, Kecamatan Air Rami, Kabupaten Mukomuko, Provinsi Bengkulu, Selasa (13/9/2022). Gajah betina
+        itu ditemukan mati oleh Tim Patroli Konsorsium Bentang Alam Seblat belum diketahui penyebab kematian gajah. Kepala Seksi Konservasi Wilayah I Balai Konservasi Sumber Daya Alam (BKSDA), Bengkulu, Said Jauhari membenarkan, seekor gajah betina dewasa
+        yang mati namun belum diketahui secara jelas apa penyebab matinya mamalia dilindungi itu.
+
+        Penulis : Kontributor Bengkulu, Firmansyah
+        Editor : Reni Susanti
+    </string>
+
+    <string name="isi_Berita8">
+        JAKARTA, KOMPAS.com - Lurah Tebet Timur Lukman Haris mengeklaim bahwa pihaknya telah berupaya mencegah seng penutup area Tebet Eco Park, Jakarta Selatan, jadi sasaran vandalisme. Menurut Lukman, pencegahan dilakukan dengan patroli malam. Sebab,
+        umumnya pelaku vandalisme itu beraksi pada malam hari. "Kami sudah keliling patroli untuk mengawasi, itu ketika kami patroli tidak ada, tapi giliran kami pergi ada lagi coretan," ujar Lukman saat dihubungi, Rabu (14/9/2022).
+
+
+        Penulis : Muhammad Isa Bustomi
+        Editor : Nursita Sari
+    </string>
+
+    <string name="isi_Berita9">
+        YOGYAKARTA,KOMPAS.com - Pelonggaran kunjungan saat pendemi membuat Pemerintah Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta (DIY), akan gencar mempromosikan wisata minat khusus. Bupati Gunungkidul Sunaryanta mengatakan,
+        Gunungkidul memiliki berbagai potensi alam yang sebagian sudah dikembangkan untuk wisata. Salah satunya Goa Jomblang di Padukuhan Jetis, Kalurahan Pacarejo, Semanu. "Bahkan, saya tadi berenang di sungai bawah tanahnya. Airnya segar sekali.
+        Ada sensasi tersendiri saat berenang di dalam goa," kata Sunaryanta ditemui di sekitar gua Jomblang, Selasa (13/9/2022).
+
+
+        Penulis : Kontributor Yogyakarta, Markus Yuwono
+        Editor : Anggara Wikan Prasetya
+    </string>
+
+    <string name="isi_berita10">
+        JAKARTA, KOMPAS.com - Pemerintah melalui Peraturan Menteri Perhubungan (Permenhub) meresmikan peraturan konversi mobil berbahan konvensional menjadi mobil listrik. Peraturan itu tertuang dalam Permenhub No PM 15 Tahun 2022 Tentang Konversi
+        Kendaraan Bermotor Selain Sepeda Motor Dengan Penggerak Motor Bakar Menjadi Kendaraan Bermotor Listrik Berbasis Baterai. Peraturan konversi mobil listrik, menyusul regulasi konversi motor listrik yaitu Permenhub No 65 Tahun 2020 tentang Konversi
+        Sepeda Motor dengan Penggerak Motor Bakar Menjadi Sepeda Motor Listrik Berbasis Baterai.
+
+        Penulis : Gilang Satria
+        Editor : Azwar Ferdian
+
+    </string>
+
+</resources>
