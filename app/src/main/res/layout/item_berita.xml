@@ -6,15 +6,15 @@
         <variable
             name="berita"
             type="com.iqbal.latihanchapter4_top2_databanding.ListBerita" />
-        <variable
-            name="detailklik"
-            type="com.iqbal.latihanchapter4_top2_databanding.ItemClickListener" />
+<!--        <variable-->
+<!--            name="detailklik"-->
+<!--            type="com.iqbal.latihanchapter4_top2_databanding.ItemClickListener" />-->
 
     </data>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:onClick="@{()->detailklik.onItem}"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:cardCornerRadius="5dp"

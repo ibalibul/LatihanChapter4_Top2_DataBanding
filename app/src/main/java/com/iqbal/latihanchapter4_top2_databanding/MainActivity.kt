@@ -5,14 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.iqbal.latihanchapter4_top2_databanding.databinding.ActivityDetailBinding
 import com.iqbal.latihanchapter4_top2_databanding.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
+//    lateinit var binding: ActivityDetailBinding
+//    lateinit var adapter: BeritaAdapter
     lateinit var binding : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
@@ -33,12 +36,21 @@ class MainActivity : AppCompatActivity() {
 
         binding.rvBerita.adapter = BeritaAdapter(listBerita)
         binding.rvBerita.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
-    }
 
-    override fun onItemCliked(detail : ListBerita) {
-        var pindah = Intent(this,DetailActivity::class.java)
-        pindah.putExtra("detailBerita",detail)
-        startActivity(pindah)
-    }
+//        adapter.onclick = {
+//            val intent = Intent(this, DetailActivity :: class.java)
+//            intent.putExtra("berita",it)
+//            startActivity(intent)
+        }
+
+
+
+
+
+//    override fun onItemCliked(detail : ListBerita) {
+//        var pindah = Intent(this,DetailActivity::class.java)
+//        pindah.putExtra("detailBerita",detail)
+//        startActivity(pindah)
+//    }
 
 }
