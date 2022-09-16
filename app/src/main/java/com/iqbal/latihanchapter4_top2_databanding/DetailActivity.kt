@@ -15,13 +15,17 @@ class DetailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_detail)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_detail)
 
+        getdataBundle()
 
-
-        var getDetail = intent.getSerializableExtra("detailBerita") as ListBerita
-        ivImgDetail.setImageResource(getDetail.img)
-        tvJDetailBerita.text = getDetail.judulBerita
-        tvJurnalisDBerita.text = getDetail.jurnalis
-        tvTanggalDetail.text = getDetail.tanggalBerita
-        tvIsiBerita.setText(getDetail.isiBerita)
     }
+
+    fun getdataBundle() {
+        var bund = intent.extras
+        binding.tvJDetailBerita.text = bund!!.getString("judulberita")
+        binding.tvJurnalisDBerita.text = bund!!.getString("jurnalisberita")
+        binding.ivImgDetail.setImageResource(bund!!.getInt("imageberita"))
+        binding.tvTanggalDetail.text = bund!!.getString("tanggalberita")
+        binding.tvIsiBerita.text = bund!!.getString("isiberita")
+    }
+
 }

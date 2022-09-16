@@ -1,7 +1,9 @@
 package com.iqbal.latihanchapter4_top2_databanding
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.iqbal.latihanchapter4_top2_databanding.databinding.ItemBeritaBinding
@@ -13,12 +15,23 @@ class BeritaAdapter (var listBerita: ArrayList<ListBerita>) : RecyclerView.Adapt
     class ViewHolder(var binding: ItemBeritaBinding) : RecyclerView.ViewHolder(binding.root){
         fun datanew (itemData : ListBerita) {
             binding.berita = itemData
-            binding.cardView.setOnClickListener{
-                var bundle = Bundle()
-                bundle.putSerializable("berita",itemData)
+            binding.cardView.setOnClickListener(object : View.OnClickListener{
 
+                override fun onClick(view: View?) {
 
-            }
+                    var bundle = Bundle()
+                    bundle.putString("judulberita", itemData.judulBerita)
+                    bundle.putString("tanggalberita", itemData.tanggalBerita)
+                    bundle.putString("jurnalisberita", itemData.jurnalis)
+                    bundle.putInt("isiberita", itemData.isiBerita)
+                    bundle.putInt("imageberita", itemData.img)
+                    val intent = Intent(view!!.context,DetailActivity::class.java)
+                    intent.putExtras(bundle)
+                    view.context.startActivity(intent)
+
+                }
+
+            })
         }
     }
 
@@ -31,9 +44,8 @@ class BeritaAdapter (var listBerita: ArrayList<ListBerita>) : RecyclerView.Adapt
         holder.datanew(listBerita[position])
     }
 
-    override fun getItemCount(): Int = listBerita.size
+    override fun getItemCount(): Int {
+        return listBerita.size
+    }
 
-//    fun getData(data : ArrayList<ListBerita>){
-//            this.listBerita = data
-//    }
 }
